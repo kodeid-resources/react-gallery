@@ -46,7 +46,7 @@ export default class GalleryApp extends React.Component {
         <Carousel
           showIndex={this.state.showIndex}
           nav={this.renderNav()}
-          width={configStyles.imageHeight}
+          width={configStyles.imageWidth}
         >
           <Slide image={require('./images/1.jpg')} title="Star Wars Legos">
             Everything in Judah&lsquo;s imaginary world revolves around Star
