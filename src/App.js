@@ -1,5 +1,6 @@
 import React from 'react';
 
+import configStyles from './config-styles.js';
 import Carousel from './Carousel.js';
 import Frame from './Frame.js';
 import Nav from './Nav.js';
@@ -45,7 +46,7 @@ export default class GalleryApp extends React.Component {
         <Carousel
           showIndex={this.state.showIndex}
           nav={this.renderNav()}
-          width={640}
+          width={configStyles.imageHeight}
         >
           <Slide image={require('./images/1.jpg')} title="Star Wars Legos">
             Everything in Judah&lsquo;s imaginary world revolves around Star
